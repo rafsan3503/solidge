@@ -1421,8 +1421,22 @@ p {
   font-style: normal;
   font-weight: 400;
 }
-
+.mob_tkn {
+  display: none;
+}
 @media screen and (max-width: 768px) {
+  .lp-burn,
+  .burn-perc,
+  .dev,
+  .dev-perc,
+  .rew,
+  .rew-perc {
+    display: none;
+  }
+  .mob_tkn {
+    display: block;
+    margin-top: 20px;
+  }
   .markets img {
     width: 15vw;
   }
